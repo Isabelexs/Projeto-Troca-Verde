@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #222;
+}
+
+header {
+    background: #006400;
+    color: #fff;
+    padding: 24px 0 12px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    background: #222;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 7px 15px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+nav a:hover {
+    background: #008000;
+}
+
+.section {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 32px 20px;
+    background: #f7fff7;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+
+.section h2 {
+    color: #008000;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    background: #fff;
+}
+
+th, td {
+    border: 1px solid #008000;
+    padding: 12px 6px;
+    text-align: center;
+}
+
+th {
+    background: #008000;
+    color: #fff;
+}
+
+.troca-img {
+    display: block;
+    margin: 20px auto 0 auto;
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px solid #006400;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    background: #fff;
+    border-left: 6px solid #008000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 16px;
+}
+
+.info-card img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 18px;
+    border: 2px solid #222;
+}
+
+.info-card h3 {
+    margin: 0 0 8px 0;
+    color: #006400;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 40px;
+}
